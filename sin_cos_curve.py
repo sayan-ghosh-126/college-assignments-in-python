@@ -12,7 +12,7 @@ def SinCurve():
 def CosCurve():
     plt.subplot(2,1,2)
     degree=range(0,360+1)
-    CosValue=[math.sin(math.radians(i)) for i in degree]
+    CosValue=[math.cos(math.radians(i)) for i in degree]
     plt.plot(CosValue)
     plt.xlabel("degree")
     plt.ylabel("CosValue")
